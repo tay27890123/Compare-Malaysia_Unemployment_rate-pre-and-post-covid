@@ -8,6 +8,8 @@ This project analyses 32 years of employment and GDP data for Malaysia using a p
 
 Dataset Kaggle – Global Jobs, GDP and Unemployment Data (1991–2022)
 https://www.kaggle.com/datasets/akshatsharma2/global-jobs-gdp-and-unemployment-data-19912022
+-This data contains Global Jobs , so i pull out the Malaysia data in 01 and 02 notebook to help me more focus on Malaysia economics analysis.
+
 
 I analysed the data in two ways:
 - Full period: 1991–2022 (32 years)
@@ -47,6 +49,13 @@ The analysis suggests that:
 - matplotlib, seaborn
 - scipy, scikit-learn
 
+### Limitations
+This dataset uses general unemployment rate (not youth-specific 15–24 data).
+
+### Project 2.0 Concept 
+ - Replace with official DOSM monthly youth unemployment data for more targeted analysis.
+ - Analysis global not only Malaysia and ASEAN
+
 ## How to Run
 
 ```bash
@@ -57,7 +66,7 @@ Dataset
 Kaggle – Global Jobs, GDP and Unemployment Data (1991–2022)
 https://www.kaggle.com/datasets/akshatsharma2/global-jobs-gdp-and-unemployment-data-19912022
 
-Limitations
+###Limitations
 This dataset uses general unemployment rate (not youth-specific 15–24 data).
 
 Project 2.0 Concept 
